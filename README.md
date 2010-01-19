@@ -36,4 +36,4 @@ The above snippet can be extended with an additional function that processes the
 By default the plugin automatically adds the appropriate JavaScript event handler to every 
 link that has a rel attribute in the following format:
 
-    <a href="/deep-link" rel="address:/deep-link">Deep link</a> 
+    <a href="/deep-link" data-url="address:/deep-link">Deep link</a> 
